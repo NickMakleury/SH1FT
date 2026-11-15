@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preLoader</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader" hidden aria-hidden="true">
+        <div class="logo-container">
+            <div class="percentage" id="loading-percentage">0%</div>
+            <svg id="shift-svg" viewBox="0 0 618 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- S and H -->
+                <path
+                    d="M83.5937 43.8211C83.0255 38.0919 80.5871 33.6411 76.2784 30.4688C71.9697 27.2964 66.1221 25.7103 58.7358 25.7103C53.7168 25.7103 49.4791 26.4205 46.0227 27.8409C42.5662 29.214 39.9147 31.1317 38.0681 33.5938C36.2689 36.0559 35.3693 38.8495 35.3693 41.9745C35.2746 44.5786 35.8191 46.8514 37.0028 48.7926C38.2339 50.7339 39.9147 52.4148 42.0454 53.8353C44.1761 55.2084 46.6382 56.4157 49.4318 57.4574C52.2253 58.4517 55.2083 59.304 58.3806 60.0142L71.4488 63.1392C77.7935 64.5597 83.6174 66.4536 88.9204 68.8211C94.2234 71.1885 98.8162 74.1004 102.699 77.5568C106.581 81.0133 109.588 85.0853 111.719 89.7728C113.897 94.4603 115.009 99.8343 115.057 105.895C115.009 114.796 112.737 122.514 108.239 129.048C103.788 135.535 97.3484 140.578 88.9204 144.176C80.5397 147.727 70.4308 149.503 58.5937 149.503C46.8513 149.503 36.624 147.704 27.9119 144.105C19.2471 140.507 12.4763 135.18 7.59943 128.125C2.76988 121.023 0.236743 112.24 0 101.775H29.7585C30.0899 106.652 31.4867 110.724 33.9488 113.991C36.4583 117.211 39.7964 119.65 43.963 121.307C48.177 122.917 52.9356 123.722 58.2386 123.722C63.4469 123.722 67.9687 122.964 71.8039 121.449C75.6865 119.934 78.6931 117.827 80.8238 115.128C82.9545 112.429 84.0198 109.328 84.0198 105.824C84.0198 102.557 83.0492 99.8106 81.1079 97.5853C79.214 95.3599 76.4204 93.4659 72.7272 91.9034C69.0814 90.3409 64.607 88.9205 59.3039 87.6421L43.4659 83.6648C31.2026 80.6818 21.5198 76.018 14.4176 69.6733C7.31534 63.3286 3.78787 54.7822 3.83522 44.0341C3.78787 35.2273 6.13162 27.5332 10.8664 20.9517C15.6486 14.3703 22.2064 9.23296 30.5397 5.53977C38.8731 1.84659 48.3428 0 58.9488 0C69.7443 0 79.1666 1.84659 87.2159 5.53977C95.3125 9.23296 101.61 14.3703 106.108 20.9517C110.606 27.5332 112.926 35.1563 113.068 43.8211H83.5937Z"
+                    fill="white" />
+                <path
+                    d="M135.742 147.443V1.98864H166.495V62.0029H228.924V1.98864H259.606V147.443H228.924V87.358H166.495V147.443H135.742Z"
+                    fill="white" />
+
+                <!-- 1 -->
+                <path id="path-1"
+                    d="M351.665 0.24628V145.701L316.637 147.443V31.179H315.785L282.475 52.0597V24.787L318.484 1.98864L351.665 0.24628Z"
+                    fill="white" />
+
+                <!-- F and T Group -->
+                <g id="group-ft">
+                    <path
+                        d="M387.087 145.701V0.24628H483.394V25.6014H417.84V60.2605H477.002V85.6156H417.84V145.701H387.087Z"
+                        fill="white" />
+                    <path d="M498.54 25.6014V0.24628H618V25.6014H573.469V145.701H543.071V25.6014H498.54Z"
+                        fill="white" />
+                </g>
+            </svg>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <!-- Page 1 — White / Editorial -->
+        <section id="page-1" class="page page-white">
+
+            <header class="p1-topbar">
+                <span class="p1-logo">SH1FT®</span>
+                <!-- <button class="p1-nav-link" onclick="scrollTo('page-2')">
+                    Próximo <span class="arr">→</span>
+                </button> -->
+            </header>
+
+            <div class="p1-hero">
+                <span class="p1-label">[ Preloader ]</span>
+                <h1 class="p1-title">
+                    Design<br><em>em movimento.</em>
+                </h1>
+                <div class="p1-aside">
+                    <p class="p1-aside-label">Sobre</p>
+                    <p class="p1-aside-item">Animação vetorial</p>
+                    <p class="p1-aside-item">Carregamento progressivo</p>
+                    <p class="p1-aside-item">SVG escalável</p>
+                    <p class="p1-aside-item">Zero dependências</p>
+                </div>
+            </div>
+
+            <footer class="p1-bottombar">
+                <p class="p1-desc">
+                    <strong>Sem genéricos.</strong> O preloader como linguagem — está página foi desenvolvida apenas para estudar os conceitos de preLoader
+                </p>
+                <span class="p1-copy">© 2025 SH1FT</span>
+            </footer>
+
+        </section>
+
+        <!-- Page 2 — Dark / Menu -->
+        <section id="page-2" class="page page-dark">
+
+            <header class="p2-topbar">
+                <span class="p2-logo">SH1FT®</span>
+                <!-- <div class="p2-cta">
+                    <button class="p2-btn" onclick="scrollTo('page-1')">← Voltar</button>
+                    <button class="p2-btn-back" aria-label="fechar">✕</button>
+                </div> -->
+            </header>
+
+            <nav class="p2-menu">
+                <div class="p2-menu-item">
+                    <div class="p2-menu-left">
+                        <span class="p2-menu-title">Preloader</span>
+                        <span class="p2-menu-num">(01)</span>
+                    </div>
+                    <span class="p2-menu-arrow"></span>
+                </div>
+                <div class="p2-menu-item">
+                    <div class="p2-menu-left">
+                        <span class="p2-menu-title">Vetorial</span>
+                        <span class="p2-menu-num">(02)</span>
+                    </div>
+                    <span class="p2-menu-arrow"></span>
+                </div>
+                <div class="p2-menu-item">
+                    <div class="p2-menu-left">
+                        <span class="p2-menu-title">Animação</span>
+                        <span class="p2-menu-num">(03)</span>
+                    </div>
+                    <span class="p2-menu-arrow"></span>
+                </div>
+                <div class="p2-menu-item">
+                    <div class="p2-menu-left">
+                        <span class="p2-menu-title">Identidade</span>
+                        <span class="p2-menu-num">(04)</span>
+                    </div>
+                    <span class="p2-menu-arrow"></span>
+                </div>
+            </nav>
+
+            <footer class="p2-bottombar">
+                <div>
+                    <p class="p2-bottom-label">Links ↗</p>
+                    <div class="p2-social-links">
+                        <a href="https://www.linkedin.com/in/nick-makleury/" class="p2-social-link" target="_blank">
+                            LinkedIn ↗
+                        </a>
+
+                        <a href="https://github.com/NickMakleury" class="p2-social-link" target="_blank">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </div>
+                <span class="p2-copy">© 2026 SH1FT. All rights reserved.</span>
+            </footer>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
